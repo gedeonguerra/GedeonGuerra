@@ -1,26 +1,35 @@
 name: Generate Datas
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"  # Corrigido: Executa a cada 12 horas
   workflow_dispatch:
+
+permissions:  # Aumenta as permissões do token
+  contents: write
 
 jobs:
   build:
-    name: Jobs to update datas
+    name: Update Datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      # Cria o diretório necessário
+      - name: Create dist directory
+        run: mkdir -p dist
+        
+      # Gera a animação da cobrinha
+      - name: Generate Snake
+        uses: Platane/snk@master
         with:
-          github_user_name: gedeonguerra
+          github_user_name: rafaballerini
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Faz deploy para o branch 'output'
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true  # Mantém o histórico de commits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
