@@ -7,14 +7,8 @@
 😍 I love the tech area
 
 ##
-
-<a href="https://github.com/gedeonguerra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=gedeonguerra&rank_icon=github&show_icons=true&theme=shadow_red" />
-</a>
-<a href="https://github.com/gedeonguerra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=gedeonguerra&layout=compact&show_icons=true&theme=shadow_red&langs_count=8&card_width=320" />
-</a>
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gedeonguerra&rank_icon=github&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gedeonguerra&layout=compact&theme=radical)
 ##
 
 <div style="display: inline_block"><br>
