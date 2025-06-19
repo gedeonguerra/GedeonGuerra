@@ -2,7 +2,7 @@
 
 ##
 
-🤑 currently working at pipocaÁgil
+📚 Specialization in Software Quality Engineering – EBAC (in progress)
 💻 Working as QA Engineer since 2024
 😍 I love the tech area
 
