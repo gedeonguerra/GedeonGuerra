@@ -1,8 +1,8 @@
-## Hello world! My name is Gedeon and I'm a QA Engineer, from PipocaÁgil
+## Hello world! My name is Gedeon and I'm a QA Engineer
 
 ##
 
-📚 Specialization in Software Quality Engineering – EBAC (in progress)
+📚 Specialization in Software Quality Engineering – EBAC (08/06/26)
 💻 Working as QA Engineer since 2024
 😍 I love the tech area
 
