@@ -48,15 +48,21 @@ $ echo $STATUS
 
 <br>
 
-## 📊 GitHub Stats
+## 📊 Impacto em números
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gedeonguerra&show_icons=true&theme=tokyonight&hide_border=true&hide_title=false&include_all_commits=true" width="480"/>
+
+| 📉 | ⚡ | 🎯 | 🧪 |
+|:---:|:---:|:---:|:---:|
+| **-85%** | **+40%** | **70%** | **20** |
+| bugs em produção | performance na execução dos testes | cobertura em módulos críticos | cenários automatizados entregues |
+
 </div>
 
-<blockquote>
-<sub>⚠️ Widget dinâmico via <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>. Se não carregar, é instabilidade temporária do serviço hospedado — não do seu perfil.</sub>
-</blockquote>
+<sub align="center">Resultados reais do projeto Pipoca Ágil e do Test Automation Suite (EBAC) — detalhes na seção de Experiência e Projetos abaixo.</sub>
+
+<br>
+
 
 <br>
 
@@ -173,17 +179,9 @@ Cobertura de CRUD completo em 4 recursos, com cenários positivos e negativos.
 
 **Engenheiro de Qualidade de Software/Testes** · Pipoca Ágil *(projeto voluntário, remoto)* — `Mar/2025 – Set/2025`
 
-Atuação em todo o **STLC** em ambiente ágil real, entregando uma suíte completa de automação para uma aplicação web em produção.
+Atuação em todo o **STLC** em ambiente ágil real, entregando uma suíte completa de automação para uma aplicação web em produção — os resultados estão nos números lá em cima. ⬆️
 
-<div align="center">
-
-| 📉 **-85%** | ⚡ **+40%** | 🎯 **70%** | 🧪 **8** |
-|:---:|:---:|:---:|:---:|
-| bugs em produção | performance na execução | cobertura em módulos críticos | suítes Cypress |
-
-</div>
-
-- Automação de fluxos críticos (login, cadastro, doações, checkout)
+- 8 suítes de automação com Cypress cobrindo fluxos críticos (login, cadastro, doações, checkout)
 - Pipelines de CI/CD com GitHub Actions a cada build
 - Testes de contrato e integração de API com Postman + Newman
 - Documentação estruturada de defeitos no Jira (logs, screenshots, network traces)
@@ -235,6 +233,6 @@ Atuação em todo o **STLC** em ambiente ágil real, entregando uma suíte compl
 
 <br><br>
 
-<sub>Feito à mão, sem gerador de banner — obrigado pela visita 👋</sub>
+<sub> obrigado pela visita 👋</sub>
 
 </div>
