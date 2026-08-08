@@ -37,6 +37,7 @@ $ cat missao.txt
 $ ls -la competencias/
 drwxr-xr-x  automacao-e2e/        Cypress, Playwright, Selenium, WebdriverIO
 drwxr-xr-x  testes-de-api/        Postman, Newman, GraphQL, Supertest
+drwxr-xr-x  testes-de-backend/    Java, JUnit, Spring Boot, JaCoCo
 drwxr-xr-x  ci-cd/                GitHub Actions, Jenkins, Docker
 drwxr-xr-x  performance/          JMeter, k6
 drwxr-xr-x  mobile/               Appium
@@ -52,17 +53,14 @@ $ echo $STATUS
 
 <div align="center">
 
-| 📉 | ⚡ | 🎯 | 🧪 |
-|:---:|:---:|:---:|:---:|
-| **-85%** | **+40%** | **70%** | **20** |
-| bugs em produção | performance na execução dos testes | cobertura em módulos críticos | cenários automatizados entregues |
+| 🧪 |
+|:---:|
+| **20** |
+| cenários automatizados entregues |
 
 </div>
 
-<sub align="center">Resultados reais do projeto Pipoca Ágil e do Test Automation Suite (EBAC) — detalhes na seção de Experiência e Projetos abaixo.</sub>
-
-<br>
-
+<sub align="center">Resultado real do Test Automation Suite (EBAC) — detalhes na seção de Experiência e Projetos abaixo.</sub>
 
 <br>
 
@@ -86,6 +84,14 @@ $ echo $STATUS
 <img src="https://img.shields.io/badge/Newman-FF6C37?style=flat-square&logo=postman&logoColor=white">
 <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white">
 <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white">
+
+**Testes de Backend**
+<br>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white">
+<img src="https://img.shields.io/badge/JaCoCo-D22128?style=flat-square">
+<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white">
 
 **Linguagens**
 <br>
@@ -179,12 +185,13 @@ Cobertura de CRUD completo em 4 recursos, com cenários positivos e negativos.
 
 **Engenheiro de Qualidade de Software/Testes** · Pipoca Ágil *(projeto voluntário, remoto)* — `Mar/2025 – Set/2025`
 
-Atuação em todo o **STLC** em ambiente ágil real, entregando uma suíte completa de automação para uma aplicação web em produção — os resultados estão nos números lá em cima. ⬆️
+Atuação em QA no backend do AgilePop, API REST em Java/Spring Boot do projeto comunitário voluntário Pipoca Ágil, estruturando testes automatizados e a esteira de integração contínua.
 
-- 8 suítes de automação com Cypress cobrindo fluxos críticos (login, cadastro, doações, checkout)
-- Pipelines de CI/CD com GitHub Actions a cada build
-- Testes de contrato e integração de API com Postman + Newman
-- Documentação estruturada de defeitos no Jira (logs, screenshots, network traces)
+- Suíte de testes automatizados (JUnit + MockMvc) cobrindo os 5 endpoints REST da API, com cenários de sucesso, validação de regras de negócio e tratamento de erros (400/404)
+- Pipeline de CI/CD com GitHub Actions, com jobs de build, testes e testes de API disparados automaticamente a cada push
+- Relatório de cobertura de código com JaCoCo integrado à esteira de CI
+- Testes de API automatizados com Postman + Newman, cobrindo o fluxo completo da API (criar → listar → buscar → atualizar → deletar)
+- Diagnóstico e correção de falhas reais de configuração de ambiente e de pipeline que bloqueavam a execução dos testes
 
 > [!NOTE]
 > Atuo hoje como Mecânico de Manutenção Automotiva Jr. na Raízen Energia — a mesma disciplina de diagnóstico técnico que aplico na qualidade de software.
